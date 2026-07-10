@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "questionText": "Which Azure App Service plan tier is the minimum required to support custom domains and SSL bindings?",
+    "questionText": "Which Azure App Service plan tier is the minimum required to support custom domains and SSL bindingsssss?",
     "options": ["Free", "Shared", "Basic", "Standard"],
     "correctAnswer": 1,
     "explanation": "The Shared tier supports custom domains, while the Basic tier is the minimum required to support custom domains and SSL bindings."
