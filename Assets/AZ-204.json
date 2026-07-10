@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "questionText": "Which Azure App Service plan tier is the minimum required to support custom domains and SSL bindings?",
+    "options": ["Free", "Shared", "Basic", "Standard"],
+    "correctAnswer": 1,
+    "explanation": "The Shared tier supports custom domains, while the Basic tier is the minimum required to support custom domains and SSL bindings."
+  },
+  {
+    "id": 2,
+    "questionText": "You are developing a serverless backend function that needs to process messages from a queue. Which trigger should you use?",
+    "options": ["HTTP Trigger", "Timer Trigger", "Queue Trigger", "Blob Trigger"],
+    "correctAnswer": 2,
+    "explanation": "A Queue Trigger is used to run an Azure Function when a new message is added to an Azure Queue Storage or Service Bus Queue."
+  },
+  {
+    "id": 3,
+    "questionText": "What type of binding allows an Azure Function to write data directly to Azure Cosmos DB without writing SDK client instantiation code?",
+    "options": ["Input Binding", "Output Binding", "Trigger Binding", "Custom Binding"],
+    "correctAnswer": 1,
+    "explanation": "An Output Binding lets you write data to services like Cosmos DB or Blob Storage from your function code dynamically."
+  },
+  {
+    "id": 4,
+    "questionText": "Which Cosmos DB API is recommended for storing graph datasets with relationships?",
+    "options": ["SQL API (NoSQL)", "Gremlin API", "MongoDB API", "Cassandra API"],
+    "correctAnswer": 1,
+    "explanation": "The Gremlin API is designed for graph database modeling, storing vertices and edges to represent relationships."
+  },
+  {
+    "id": 5,
+    "questionText": "Which service provides secure key storage, secrets management, and certificate management in Azure?",
+    "options": ["Azure Active Directory", "Azure Key Vault", "Azure Sentinel", "Azure Security Center"],
+    "correctAnswer": 1,
+    "explanation": "Azure Key Vault is a centralized cloud service for securing passwords, API keys, certificates, and other cryptographic secrets."
+  },
+  {
+    "id": 6,
+    "questionText": "What must you configure on a Virtual Machine to allow it to securely authenticate against Azure Key Vault without storing credentials in the code?",
+    "options": ["Managed Identity", "Service Principal", "Shared Access Signature (SAS)", "API Key"],
+    "correctAnswer": 0,
+    "explanation": "Managed Identities for Azure Resources provides an automatically managed identity in Microsoft Entra ID for applications to authenticate."
+  },
+  {
+    "id": 7,
+    "questionText": "Which caching service should you implement to improve web application latency by storing frequently queried data in memory?",
+    "options": ["Azure Cosmos DB", "Azure Cache for Redis", "Azure SQL Database", "Azure Table Storage"],
+    "correctAnswer": 1,
+    "explanation": "Azure Cache for Redis provides an in-memory data store based on Redis, improving performance and scalability."
+  },
+  {
+    "id": 8,
+    "questionText": "Which Azure CDN tier provides features like rule engine customization and advanced reporting?",
+    "options": ["Standard from Akamai", "Standard from Microsoft", "Premium from Verizon", "Standard from Verizon"],
+    "correctAnswer": 2,
+    "explanation": "Azure CDN Premium from Verizon offers advanced analytics, reporting, and rules engine customization options."
+  },
+  {
+    "id": 9,
+    "questionText": "What type of authentication flow should you use to securely authenticate user access to a single-page application (SPA) using MSAL.js?",
+    "options": ["Authorization Code Flow with PKCE", "Implicit Flow", "Client Credentials Flow", "On-Behalf-Of Flow"],
+    "correctAnswer": 0,
+    "explanation": "Authorization Code Flow with PKCE is the industry standard flow for SPAs, replacing the deprecated implicit flow."
+  },
+  {
+    "id": 10,
+    "questionText": "Which Azure Service Bus feature ensures that messages are processed in a strict First-In-First-Out (FIFO) order?",
+    "options": ["Dead-letter queues", "Message Sessions", "Duplicate Detection", "Scheduled Messages"],
+    "correctAnswer": 1,
+    "explanation": "Message Sessions enable joint and ordered handling of unbounded sequences of related messages, implementing FIFO routing."
+  },
+  {
+    "id": 11,
+    "questionText": "You need to ingest high-throughput telemetry data from millions of IoT devices. Which messaging service is best suited?",
+    "options": ["Azure Storage Queues", "Azure Service Bus", "Azure Event Hubs", "Azure Event Grid"],
+    "correctAnswer": 2,
+    "explanation": "Azure Event Hubs is a big data streaming platform and event ingestion service capable of receiving and processing millions of events per second."
+  },
+  {
+    "id": 12,
+    "questionText": "Which routing service uses a publish-subscribe model to route discrete events from Azure resources to handlers like Azure Functions?",
+    "options": ["Azure Event Grid", "Azure Event Hubs", "Azure Service Bus", "Azure Storage Queue"],
+    "correctAnswer": 0,
+    "explanation": "Azure Event Grid is a highly scalable, serverless event routing service that uses a pub-sub model for discrete event notifications."
+  },
+  {
+    "id": 13,
+    "questionText": "What parameter is used in Docker commands to specify a port mapping between host and container?",
+    "options": ["-d", "-v", "-p", "-t"],
+    "correctAnswer": 2,
+    "explanation": "The `-p` (or `--publish`) parameter maps a port on the container to a port on the host machine."
+  },
+  {
+    "id": 14,
+    "questionText": "In Azure Application Insights, what type of telemetry allows you to trace user journeys and capture custom events?",
+    "options": ["Metrics", "Custom Events", "Dependencies", "Exceptions"],
+    "correctAnswer": 1,
+    "explanation": "Custom Events in Application Insights allow developers to track user interaction patterns and custom workflows."
+  },
+  {
+    "id": 15,
+    "questionText": "Which Azure storage tool allows you to grant limited, delegated access to resources in your storage account for a specified time window?",
+    "options": ["Access Keys", "Shared Access Signature (SAS)", "Managed Identity", "Role-Based Access Control (RBAC)"],
+    "correctAnswer": 1,
+    "explanation": "A Shared Access Signature (SAS) is a URI that grants restricted access rights to Azure Storage resources for a specified duration."
+  }
+]
