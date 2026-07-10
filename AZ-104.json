@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "questionText": "Which Azure Active Directory (Microsoft Entra ID) role allows you to manage all aspects of users and groups?",
+    "options": ["Billing Administrator", "User Administrator", "Global Administrator", "Helpdesk Administrator"],
+    "correctAnswer": 1,
+    "explanation": "The User Administrator role allows users to manage all aspects of users and groups, including resetting passwords for limited administrators."
+  },
+  {
+    "id": 2,
+    "questionText": "What can you use to ensure that virtual machines are deployed across multiple physical datacenters in an Azure region?",
+    "options": ["Availability Sets", "Availability Zones", "Resource Groups", "Virtual Network Peering"],
+    "correctAnswer": 1,
+    "explanation": "Availability Zones are physically separate datacenters within an Azure region, providing high availability and fault tolerance."
+  },
+  {
+    "id": 3,
+    "questionText": "Which service should you use to resolve domain names for internal Azure virtual machines without custom DNS servers?",
+    "options": ["Azure DNS Private Zones", "Azure Firewall", "Azure Traffic Manager", "Azure Front Door"],
+    "correctAnswer": 0,
+    "explanation": "Azure DNS Private Zones provides name resolution within a virtual network or between virtual networks without needing a custom DNS server."
+  },
+  {
+    "id": 4,
+    "questionText": "You need to restrict users from creating virtual machines of specific sizes. What should you use?",
+    "options": ["Azure Policy", "Azure Blueprints", "Role-Based Access Control (RBAC)", "Resource Locks"],
+    "correctAnswer": 0,
+    "explanation": "Azure Policy is used to enforce rules and effects over your resources, such as restricting VM sizes."
+  },
+  {
+    "id": 5,
+    "questionText": "Which storage tier provides the lowest storage cost but the highest retrieval latency?",
+    "options": ["Hot tier", "Cool tier", "Cold tier", "Archive tier"],
+    "correctAnswer": 3,
+    "explanation": "The Archive tier has the lowest storage cost but the highest data retrieval latency (hours) and cost."
+  },
+  {
+    "id": 6,
+    "questionText": "What type of storage account is recommended for most storage scenarios including Blobs, Files, Queues, and Tables?",
+    "options": ["General-purpose v2", "General-purpose v1", "Blob storage account", "Premium block blobs"],
+    "correctAnswer": 0,
+    "explanation": "General-purpose v2 storage accounts support all the latest features and provide support for Blobs, Files, Queues, and Tables."
+  },
+  {
+    "id": 7,
+    "questionText": "Which type of replication copies your data synchronously to three Availability Zones within the primary region?",
+    "options": ["Locally redundant storage (LRS)", "Zone-redundant storage (ZRS)", "Geo-redundant storage (GRS)", "Geo-zone-redundant storage (GZRS)"],
+    "correctAnswer": 1,
+    "explanation": "Zone-redundant storage (ZRS) replicates your data synchronously across three Azure availability zones in the primary region."
+  },
+  {
+    "id": 8,
+    "questionText": "You need to prevent accidental deletion or modification of critical Azure resources. What should you apply?",
+    "options": ["Azure Policy", "Resource Locks", "Role-Based Access Control (RBAC)", "Azure Security Center"],
+    "correctAnswer": 1,
+    "explanation": "Resource Locks can be applied to subscriptions, resource groups, or resources to prevent accidental deletion (CanNotDelete) or modification (ReadOnly)."
+  },
+  {
+    "id": 9,
+    "questionText": "Which Azure command-line tool is a cross-platform command-line tool that can run on Windows, macOS, and Linux?",
+    "options": ["Azure PowerShell", "Azure CLI", "Azure Cloud Shell", "Azure portal"],
+    "correctAnswer": 1,
+    "explanation": "Azure CLI is Microsoft's cross-platform command-line experience for managing Azure resources."
+  },
+  {
+    "id": 10,
+    "questionText": "Which tool can you use to visualize network traffic flows and security rules applied to a virtual machine?",
+    "options": ["Azure Network Watcher IP Flow Verify", "Azure Network Watcher Connection Monitor", "Azure Network Watcher NSG Flow Logs", "Azure Monitor Metrics"],
+    "correctAnswer": 2,
+    "explanation": "NSG Flow Logs in Azure Network Watcher allows you to view information about ingress and egress IP traffic through a Network Security Group."
+  },
+  {
+    "id": 11,
+    "questionText": "What is the default routing behavior for traffic between subnets in the same Azure Virtual Network?",
+    "options": ["Traffic is blocked by default", "Traffic is routed automatically through system routes", "Traffic requires a User Defined Route (UDR)", "Traffic requires a Network Security Group (NSG) rule"],
+    "correctAnswer": 1,
+    "explanation": "By default, Azure automatically creates system routes that route traffic between all subnets in a virtual network."
+  },
+  {
+    "id": 12,
+    "questionText": "Which type of virtual network peering allows virtual networks in different Azure regions to connect to each other?",
+    "options": ["Local VNet Peering", "Global VNet Peering", "Regional VNet Peering", "Cross-Subscription VNet Peering"],
+    "correctAnswer": 1,
+    "explanation": "Global VNet Peering connects virtual networks in different Azure regions."
+  },
+  {
+    "id": 13,
+    "questionText": "You want to dynamically route inbound HTTP/HTTPS traffic to a backend pool of web servers based on the URL path. Which service should you use?",
+    "options": ["Azure Load Balancer", "Azure Traffic Manager", "Azure Application Gateway", "Network Security Group"],
+    "correctAnswer": 2,
+    "explanation": "Azure Application Gateway is a web traffic load balancer (Layer 7) that can make routing decisions based on URL path."
+  },
+  {
+    "id": 14,
+    "questionText": "Which Azure compute service is best suited for running microservices in containerized environments without managing underlying VMs?",
+    "options": ["Azure Virtual Machines", "Azure App Service", "Azure Container Instances (ACI)", "Azure Kubernetes Service (AKS)"],
+    "correctAnswer": 3,
+    "explanation": "Azure Kubernetes Service (AKS) manages containerized applications (microservices) using Kubernetes, reducing cluster management overhead."
+  },
+  {
+    "id": 15,
+    "questionText": "What is the maximum backup retention period for Azure Virtual Machine backups using Recovery Services Vault?",
+    "options": ["30 days", "99 years", "7 years", "10 years"],
+    "correctAnswer": 1,
+    "explanation": "Azure Backup allows retaining recovery points in a Recovery Services Vault for up to 99 years."
+  },
+  {
+    "id": 16,
+    "questionText": "Which monitoring tool should you use to collect and analyze telemetry data from cloud and on-premises environments?",
+    "options": ["Azure Monitor", "Azure Advisor", "Azure Network Watcher", "Azure Service Health"],
+    "correctAnswer": 0,
+    "explanation": "Azure Monitor maximizes the availability and performance of applications and services by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry."
+  },
+  {
+    "id": 17,
+    "questionText": "What is the purpose of Azure Advisor?",
+    "options": ["Enforce security compliance rules", "Provide recommendations on cost, security, reliability, performance, and operational excellence", "Automate virtual machine deployments", "Monitor virtual network health"],
+    "correctAnswer": 1,
+    "explanation": "Azure Advisor analyzes your configurations and usage telemetry to provide actionable recommendations across five pillars of optimization."
+  },
+  {
+    "id": 18,
+    "questionText": "You need to deploy a set of identical, load-balanced virtual machines that can automatically scale up or down based on CPU demand. What should you use?",
+    "options": ["Availability Sets", "Virtual Machine Scale Sets (VMSS)", "Azure Batch", "Azure App Service"],
+    "correctAnswer": 1,
+    "explanation": "Virtual Machine Scale Sets (VMSS) allow you to deploy and manage a set of auto-scaling, load-balanced virtual machines."
+  },
+  {
+    "id": 19,
+    "questionText": "Which resource group property determines where the metadata of resources created within that resource group is stored?",
+    "options": ["Tags", "Resource Group Name", "Location", "Subscription"],
+    "correctAnswer": 2,
+    "explanation": "The Resource Group's location property determines where the resource group's metadata is stored for compliance/governance."
+  },
+  {
+    "id": 20,
+    "questionText": "How can you delegate permission to perform specific tasks on Azure resources without giving full subscription access?",
+    "options": ["Azure Policy", "Role-Based Access Control (RBAC)", "Resource Locks", "Conditional Access Policies"],
+    "correctAnswer": 1,
+    "explanation": "Azure RBAC allows fine-grained access management for Azure resources, delegating only the necessary permissions."
+  },
+  {
+    "id": 21,
+    "questionText": "Which type of Azure Storage account supports Premium file shares?",
+    "options": ["FileStorage", "BlockBlobStorage", "General-purpose v2", "General-purpose v1"],
+    "correctAnswer": 0,
+    "explanation": "FileStorage is the specialized storage account type designed to host high-performance (Premium) file shares."
+  },
+  {
+    "id": 22,
+    "questionText": "What is the default retention period for soft-deleted blobs in an Azure Storage account?",
+    "options": ["30 days", "7 days", "14 days", "90 days"],
+    "correctAnswer": 1,
+    "explanation": "The default retention period for soft-deleted blobs (if enabled) is 7 days, but can be configured up to 365 days."
+  },
+  {
+    "id": 23,
+    "questionText": "Which service allows you to map a local drive letters to an Azure File Share?",
+    "options": ["Azure Blob Storage", "Azure Files", "Azure NetApp Files", "Azure Queue Storage"],
+    "correctAnswer": 1,
+    "explanation": "Azure Files shares can be mounted via SMB protocol, allowing users to map them as local network drives."
+  },
+  {
+    "id": 24,
+    "questionText": "What should you use to securely sync file shares from Azure to local Windows Server instances?",
+    "options": ["Azure Storage Explorer", "Azure File Sync", "AzCopy", "Azure Data Box"],
+    "correctAnswer": 1,
+    "explanation": "Azure File Sync centralizes your organization's file shares in Azure Files, while keeping the flexibility, performance, and compatibility of an on-premises file server."
+  },
+  {
+    "id": 25,
+    "questionText": "Which tool provides a graphical user interface to easily upload, download, and manage files in Azure Storage?",
+    "options": ["AzCopy", "Azure Storage Explorer", "Azure CLI", "Azure portal Cloud Shell"],
+    "correctAnswer": 1,
+    "explanation": "Azure Storage Explorer is a standalone app that makes it easy to work with Azure Storage data on Windows, macOS, and Linux."
+  },
+  {
+    "id": 26,
+    "questionText": "Which Azure Resource Manager (ARM) template parameter section defines the values that remain constant across deployments?",
+    "options": ["Parameters", "Variables", "Resources", "Outputs"],
+    "correctAnswer": 1,
+    "explanation": "The variables section of an ARM template defines values that can be reused throughout the template to simplify configuration."
+  },
+  {
+    "id": 27,
+    "questionText": "What is the purpose of the B-series Virtual Machines in Azure?",
+    "options": ["High-performance compute workloads", "Memory-intensive database applications", "Economical burstable CPU workloads", "GPU-accelerated graphic rendering"],
+    "correctAnswer": 2,
+    "explanation": "B-series VMs are burstable virtual machines designed for workloads that don't need full CPU performance continuously, providing a low-cost option."
+  },
+  {
+    "id": 28,
+    "questionText": "You need to associate a Network Security Group (NSG) to block inbound traffic. NSGs can be associated to which two resources? (Choose TWO)",
+    "options": ["Virtual Network", "Subnet", "Network Interface (NIC)", "Resource Group"],
+    "correctAnswer": [1, 2],
+    "explanation": "NSGs can be associated with subnets within a virtual network and/or network interfaces (NICs) attached to VMs."
+  },
+  {
+    "id": 29,
+    "questionText": "What is the maximum number of public IP addresses you can associate to a single Azure Virtual Network gateway?",
+    "options": ["1", "2", "5", "10"],
+    "correctAnswer": 1,
+    "explanation": "An Azure VPN Gateway can be configured in active-active mode, which requires associating two public IP addresses."
+  },
+  {
+    "id": 30,
+    "questionText": "Which Azure Load Balancer SKU supports routing traffic to backend pools that span multiple virtual networks?",
+    "options": ["Basic SKU", "Standard SKU", "Premium SKU", "Enterprise SKU"],
+    "correctAnswer": 1,
+    "explanation": "Standard Load Balancer supports backend pools containing IP addresses that can span across multiple virtual networks (VNets)."
+  },
+  {
+    "id": 31,
+    "questionText": "What is the default port used by Remote Desktop Protocol (RDP) to connect to Windows Virtual Machines?",
+    "options": ["22", "80", "443", "3389"],
+    "correctAnswer": 3,
+    "explanation": "RDP uses TCP port 3389 by default to establish remote console connections to Windows hosts."
+  },
+  {
+    "id": 32,
+    "questionText": "Which Azure service acts as a secure, managed gateway to connect to your virtual machines directly via the Azure Portal over SSL/HTTPS?",
+    "options": ["Azure VPN Gateway", "Azure ExpressRoute", "Azure Bastion", "Azure Firewall"],
+    "correctAnswer": 2,
+    "explanation": "Azure Bastion provides secure and seamless RDP/SSH connectivity to your virtual machines directly in the Azure portal over SSL."
+  },
+  {
+    "id": 33,
+    "questionText": "Which command-line utility can be used to copy data to or from Azure Blob and File storage accounts?",
+    "options": ["AzCopy", "ipconfig", "git push", "cmd"],
+    "correctAnswer": 0,
+    "explanation": "AzCopy is a command-line utility that you can use to copy blobs or files to or from a storage account."
+  },
+  {
+    "id": 34,
+    "questionText": "In Azure Monitor, what type of query language is used to query Log Analytics workspaces?",
+    "options": ["SQL", "Kusto Query Language (KQL)", "JSON", "GraphQL"],
+    "correctAnswer": 1,
+    "explanation": "Azure Monitor Logs queries are written using the Kusto Query Language (KQL)."
+  },
+  {
+    "id": 35,
+    "questionText": "Which Azure backup type provides application-consistent backups of Windows Virtual Machines?",
+    "options": ["Crash-consistent backups", "Application-consistent backups", "File-system consistent backups", "Transactional backups"],
+    "correctAnswer": 1,
+    "explanation": "Application-consistent backups capture memory content and pending transactions using Volume Shadow Copy Service (VSS) to ensure backup integrity."
+  }
+]
