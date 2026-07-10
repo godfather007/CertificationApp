@@ -1,1 +1,16 @@
-
+[
+  {
+    "id": 1,
+    "questionText": "Which Azure Active Directory (Microsoft Entra ID) role allows you to manage all aspects of users and groups?",
+    "options": ["Billing Administrator", "User Administrator", "Global Administrator", "Helpdesk Administrator"],
+    "correctAnswer": 1,
+    "explanation": "The User Administrator role allows users to manage all aspects of users and groups, including resetting passwords for limited administrators."
+  },
+  {
+    "id": 2,
+    "questionText": "What can you use to ensure that virtual machines are deployed across multiple physical datacenters in an Azure region?",
+    "options": ["Availability Sets", "Availability Zones", "Resource Groups", "Virtual Network Peering"],
+    "correctAnswer": 1,
+    "explanation": "Availability Zones are physically separate datacenters within an Azure region, providing high availability and fault tolerance."
+  }
+]
