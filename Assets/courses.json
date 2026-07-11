@@ -1,0 +1,20 @@
+[
+  {
+    "code": "GH-300",
+    "title": "GitHub Copilot Certification",
+    "questionCount": "98 Questions",
+    "icon": "☁️"
+  },
+  {
+    "code": "AZ-104",
+    "title": "Microsoft Azure Administrator",
+    "questionCount": "35 Questions",
+    "icon": "⚙️"
+  },
+  {
+    "code": "AZ-204",
+    "title": "Developing Solutions for Microsoft Azure",
+    "questionCount": "15 Questions",
+    "icon": "💻"
+  }
+]
